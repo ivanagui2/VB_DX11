@@ -1,0 +1,13 @@
+ \
+ C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o:  \
+ C:/sprint2/kBuild/doc/example1/hellolib.c
+
+C:/sprint2/kBuild/doc/example1/hellolib.c:
+
+
+define hellolib_C_/sprint2/kBuild/doc/example1/hellolib.c_CMDS_PREV_
+
+@kmk_builtin_rm -f -- C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o.dep C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o  
+@gcc.exe -c -O2  -DMY_DEFINE=42 -DMY_OTHER_DEFINE -Wp,-MD,C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o.dep -Wp,-MT,C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o -o C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o C:/sprint2/kBuild/doc/example1/hellolib.c
+@kmk_builtin_append -n "C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o.dep" "" "C:/sprint2/kBuild/doc/example1/hellolib.c:" ""
+endef

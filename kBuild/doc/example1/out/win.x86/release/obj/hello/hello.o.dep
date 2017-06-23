@@ -1,0 +1,17 @@
+C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o:  \
+ C:/sprint2/kBuild/doc/example1/hello.c C:/MinGW32-3.3.3/include/stdio.h \
+  C:/MinGW32-3.3.3/include/_mingw.h C:/MinGW32-3.3.3/include/stddef.h \
+  C:/MinGW32-3.3.3/lib/gcc-lib/mingw32/3.3.3/include/stddef.h \
+  C:/MinGW32-3.3.3/include/stdarg.h \
+  C:/MinGW32-3.3.3/lib/gcc-lib/mingw32/3.3.3/include/stdarg.h \
+  C:/MinGW32-3.3.3/include/sys/types.h
+
+C:/sprint2/kBuild/doc/example1/hello.c:
+
+
+define hello_C_/sprint2/kBuild/doc/example1/hello.c_CMDS_PREV_
+
+@kmk_builtin_rm -f -- C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o.dep C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o  
+@gcc.exe -c -O2  -DMY_DEFINE=42 -DMY_OTHER_DEFINE -Wp,-MD,C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o.dep -Wp,-MT,C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o -o C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o C:/sprint2/kBuild/doc/example1/hello.c
+@kmk_builtin_append -n "C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hello/hello.o.dep" "" "C:/sprint2/kBuild/doc/example1/hello.c:" ""
+endef

@@ -1,0 +1,5 @@
+define hellolib_CMDS_PREV_
+
+@kmk_builtin_rm -f -- C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.dep C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.exe   
+@gcc.exe                     -o C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.exe C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/hellolib/hellolib.o   C:/sprint2/kBuild/doc/example1/out/win.x86/release/obj/libhello/libhello.a
+endef
